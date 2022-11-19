@@ -31,16 +31,15 @@ rainbow.push("Vain");
 // Richard, Of, York, Gave, Battle, In, Vain
 console.log(`Массив ${rainbow}`);
 console.log(rainbow);
-console.log(rainbow[0]);
+// console.log(rainbow[0]);
 
 newRainbow = rainbow.slice();
-console.log(newRainbow);
-
+// console.log(newRainbow);
 
 // 4. Вывести элементы полученного массива в html в виде, который представлен в прикрепленном рисунке rainbow.png.
 for (i = 0; i < rainbow.length; i++) {
     rainbow[i] = (rainbow[i]).toLowerCase();
-    console.log(rainbow[i]);
+    // console.log(rainbow[i]);
     document.write(`
 <div class="item">
 <div class="circle ${rainbow[i]}"></div>

@@ -43,13 +43,10 @@ for (i = 0; i < rainbow.length; i++) {
     console.log(rainbow[i]);
     document.write(`
 <div class="item">
-
 <div class="circle ${rainbow[i]}"></div>
 <div class="title">${newRainbow[i]}</div>
 </div>
-
     `)
-
 }
 
 

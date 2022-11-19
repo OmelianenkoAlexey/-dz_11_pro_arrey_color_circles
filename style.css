@@ -1,0 +1,66 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+    display: flex;
+    gap: 50px;
+    padding-top: 100px;
+}
+
+.container {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+    border-radius: 50%;
+    transition: 0.5s;
+
+}
+
+.circle:hover {
+    box-shadow: 0 0 30px black;
+}
+
+.title {
+    font-size: 18px;
+}
+
+.richard {
+    background-color: red;
+}
+
+
+.of {
+    background-color: orange;
+}
+
+.york {
+    background-color: yellow;
+}
+
+.gave {
+    background-color: green;
+}
+
+.battle {
+    background-color: steelblue;
+}
+
+.in {
+    background-color: blue;
+}
+
+
+.vain {
+    background-color: violet;
+}
